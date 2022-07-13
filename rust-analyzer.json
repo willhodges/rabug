@@ -1,0 +1,11 @@
+{
+  "checkOnSave": {
+    "extraArgs": ["--target-dir", "target/check"]
+  },
+  "runnables": {
+    "extraArgs": ["--target-dir", "target/check"]
+  },
+  "server": {
+    "extraEnv": {"CARGO_TARGET_DIR": "target/check"}
+  }
+}

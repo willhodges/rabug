@@ -1,0 +1,8 @@
+[build]
+rustflags = ["--cfg=web_sys_unstable_apis"]
+
+[check]
+rustflags = ["--cfg=web_sys_unstable_apis"]
+
+[unstable]
+unstable-options = true
